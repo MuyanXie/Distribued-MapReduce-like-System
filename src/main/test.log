@@ -1,0 +1,719 @@
+*** Starting wc test.
+[[../pg-being_ernest.txt] [../pg-dorian_gray.txt] [../pg-frankenstein.txt] [../pg-grimm.txt] [../pg-huckleberry_finn.txt] [../pg-metamorphosis.txt] [../pg-sherlock_holmes.txt] [../pg-tom_sawyer.txt] [] []]got workerId -1
+got workerId -1
+Got reply from coordinator: {1 0 1 10 [../pg-dorian_gray.txt]}
+Got reply from coordinator: {0 0 0 10 [../pg-being_ernest.txt]}
+got workerId -1
+Got reply from coordinator: {2 0 2 10 [../pg-frankenstein.txt]}
+Map task 0 done!
+Got reply from coordinator: &{0 0 true}
+got workerId 0
+Got reply from coordinator: {0 0 3 10 [../pg-grimm.txt]}
+Map task 2 done!
+Got reply from coordinator: &{2 2 true}
+got workerId 2
+Got reply from coordinator: {2 0 4 10 [../pg-huckleberry_finn.txt]}
+Map task 1 done!
+Got reply from coordinator: &{1 1 true}
+got workerId 1
+Got reply from coordinator: {1 0 5 10 [../pg-metamorphosis.txt]}
+Map task 5 done!
+Got reply from coordinator: &{1 5 true}
+got workerId 1
+Got reply from coordinator: {1 0 6 10 [../pg-sherlock_holmes.txt]}
+Map task 3 done!
+Got reply from coordinator: &{0 3 true}
+got workerId 0
+Got reply from coordinator: {0 0 7 10 [../pg-tom_sawyer.txt]}
+Map task 4 done!
+Got reply from coordinator: &{2 4 true}
+got workerId 2
+Got reply from coordinator: {2 0 8 10 []}
+Map task 8 done!
+Got reply from coordinator: &{2 8 true}
+got workerId 2
+Got reply from coordinator: {2 0 9 10 []}
+Map task 9 done!
+Got reply from coordinator: &{2 9 true}
+got workerId 2
+Got reply from coordinator: {2 0 4 10 [../pg-huckleberry_finn.txt]}
+Map task 7 done!
+Got reply from coordinator: &{0 7 true}
+got workerId 0
+Got reply from coordinator: {0 -1 0 10 []}
+Map task 6 done!
+Got reply from coordinator: &{1 6 true}
+got workerId 1
+Got reply from coordinator: {1 0 6 10 [../pg-sherlock_holmes.txt]}
+got workerId 0
+Got reply from coordinator: {0 -1 0 10 []}
+got workerId 0
+Got reply from coordinator: {0 -1 0 10 []}
+got workerId 0
+Got reply from coordinator: {0 -1 0 10 []}
+got workerId 0
+Got reply from coordinator: {0 -1 0 10 []}
+got workerId 0
+Got reply from coordinator: {0 -1 0 10 []}
+got workerId 0
+Got reply from coordinator: {0 -1 0 10 []}
+got workerId 0
+Got reply from coordinator: {0 -1 0 10 []}
+got workerId 0
+Got reply from coordinator: {0 -1 0 10 []}
+Map task 4 done!
+Got reply from coordinator: &{2 4 true}
+got workerId 2
+Got reply from coordinator: {2 -1 0 10 []}
+Map task 6 done!
+Got reply from coordinator: &{1 6 true}
+got workerId 1
+Got reply from coordinator: {1 1 0 10 []}
+Got reply from coordinator: &{1 0 true}
+got workerId 1
+Got reply from coordinator: {1 1 1 10 []}
+Got reply from coordinator: &{1 1 true}
+got workerId 1
+Got reply from coordinator: {1 1 2 10 []}
+got workerId 0
+Got reply from coordinator: {0 1 3 10 []}
+Got reply from coordinator: &{1 2 true}
+got workerId 1
+Got reply from coordinator: {1 1 4 10 []}
+Got reply from coordinator: &{0 3 true}
+got workerId 0
+Got reply from coordinator: {0 1 5 10 []}
+Got reply from coordinator: &{1 4 true}
+got workerId 1
+Got reply from coordinator: {1 1 6 10 []}
+Got reply from coordinator: &{0 5 true}
+got workerId 0
+Got reply from coordinator: {0 1 7 10 []}
+Got reply from coordinator: &{0 7 true}
+got workerId 0
+Got reply from coordinator: {0 1 8 10 []}
+Got reply from coordinator: &{1 6 true}
+got workerId 1
+Got reply from coordinator: {1 1 9 10 []}
+Got reply from coordinator: &{0 8 true}
+got workerId 0
+Got reply from coordinator: {0 -1 0 10 []}
+Got reply from coordinator: &{1 9 true}
+got workerId 1
+Got reply from coordinator: {-1 2 0 10 []}
+got workerId 2
+Got reply from coordinator: {-1 2 0 10 []}
+got workerId 0
+Got reply from coordinator: {-1 2 0 10 []}
+--- wc test: PASS
+*** Starting indexer test.
+[[../pg-being_ernest.txt] [../pg-dorian_gray.txt] [../pg-frankenstein.txt] [../pg-grimm.txt] [../pg-huckleberry_finn.txt] [../pg-metamorphosis.txt] [../pg-sherlock_holmes.txt] [../pg-tom_sawyer.txt] [] []]got workerId -1
+got workerId -1
+Got reply from coordinator: {0 0 0 10 [../pg-being_ernest.txt]}
+Got reply from coordinator: {1 0 1 10 [../pg-dorian_gray.txt]}
+Map task 0 done!
+Got reply from coordinator: &{0 0 true}
+got workerId 0
+Got reply from coordinator: {0 0 2 10 [../pg-frankenstein.txt]}
+Map task 1 done!
+Got reply from coordinator: &{1 1 true}
+got workerId 1
+Got reply from coordinator: {1 0 3 10 [../pg-grimm.txt]}
+Map task 2 done!
+Got reply from coordinator: &{0 2 true}
+got workerId 0
+Got reply from coordinator: {0 0 4 10 [../pg-huckleberry_finn.txt]}
+Map task 3 done!
+Got reply from coordinator: &{1 3 true}
+got workerId 1
+Got reply from coordinator: {1 0 5 10 [../pg-metamorphosis.txt]}
+Map task 5 done!
+Got reply from coordinator: &{1 5 true}
+got workerId 1
+Got reply from coordinator: {1 0 6 10 [../pg-sherlock_holmes.txt]}
+Map task 4 done!
+Got reply from coordinator: &{0 4 true}
+got workerId 0
+Got reply from coordinator: {0 0 7 10 [../pg-tom_sawyer.txt]}
+Map task 7 done!
+Got reply from coordinator: &{0 7 true}
+got workerId 0
+Got reply from coordinator: {0 0 8 10 []}
+Map task 8 done!
+Got reply from coordinator: &{0 8 true}
+got workerId 0
+Got reply from coordinator: {0 0 9 10 []}
+Map task 9 done!
+Got reply from coordinator: &{0 9 true}
+got workerId 0
+Got reply from coordinator: {0 -1 0 10 []}
+Map task 6 done!
+Got reply from coordinator: &{1 6 true}
+got workerId 1
+Got reply from coordinator: {1 1 0 10 []}
+Got reply from coordinator: &{1 0 true}
+got workerId 1
+Got reply from coordinator: {1 1 1 10 []}
+Got reply from coordinator: &{1 1 true}
+got workerId 1
+Got reply from coordinator: {1 1 2 10 []}
+Got reply from coordinator: &{1 2 true}
+got workerId 1
+Got reply from coordinator: {1 1 3 10 []}
+Got reply from coordinator: &{1 3 true}
+got workerId 1
+Got reply from coordinator: {1 1 4 10 []}
+Got reply from coordinator: &{1 4 true}
+got workerId 1
+Got reply from coordinator: {1 1 5 10 []}
+Got reply from coordinator: &{1 5 true}
+got workerId 1
+Got reply from coordinator: {1 1 6 10 []}
+Got reply from coordinator: &{1 6 true}
+got workerId 1
+Got reply from coordinator: {1 1 7 10 []}
+Got reply from coordinator: &{1 7 true}
+got workerId 1
+Got reply from coordinator: {1 1 8 10 []}
+Got reply from coordinator: &{1 8 true}
+got workerId 1
+Got reply from coordinator: {1 1 9 10 []}
+Got reply from coordinator: &{1 9 true}
+got workerId 1
+Got reply from coordinator: {-1 2 0 10 []}
+got workerId 0
+Got reply from coordinator: {-1 2 0 10 []}
+--- indexer test: PASS
+*** Starting map parallelism test.
+[[../pg-being_ernest.txt] [../pg-dorian_gray.txt] [../pg-frankenstein.txt] [../pg-grimm.txt] [../pg-huckleberry_finn.txt] [../pg-metamorphosis.txt] [../pg-sherlock_holmes.txt] [../pg-tom_sawyer.txt] [] []]got workerId -1
+got workerId -1
+Got reply from coordinator: {1 0 1 10 [../pg-dorian_gray.txt]}
+Got reply from coordinator: {0 0 0 10 [../pg-being_ernest.txt]}
+Map task 0 done!
+Map task 1 done!
+Got reply from coordinator: &{0 0 true}
+got workerId 0
+Got reply from coordinator: &{1 1 true}
+got workerId 1
+Got reply from coordinator: {0 0 2 10 [../pg-frankenstein.txt]}
+Got reply from coordinator: {1 0 3 10 [../pg-grimm.txt]}
+Map task 3 done!
+Got reply from coordinator: &{1 3 true}
+got workerId 1
+Map task 2 done!
+Got reply from coordinator: {1 0 4 10 [../pg-huckleberry_finn.txt]}
+Got reply from coordinator: &{0 2 true}
+got workerId 0
+Got reply from coordinator: {0 0 5 10 [../pg-metamorphosis.txt]}
+Map task 5 done!
+Map task 4 done!
+Got reply from coordinator: &{0 5 true}
+got workerId 0
+Got reply from coordinator: &{1 4 true}
+got workerId 1
+Got reply from coordinator: {0 0 6 10 [../pg-sherlock_holmes.txt]}
+Got reply from coordinator: {1 0 7 10 [../pg-tom_sawyer.txt]}
+Map task 7 done!
+Got reply from coordinator: &{1 7 true}
+got workerId 1
+Map task 6 done!
+Got reply from coordinator: {1 0 8 10 []}
+Got reply from coordinator: &{0 6 true}
+got workerId 0
+Got reply from coordinator: {0 0 9 10 []}
+Map task 8 done!
+Got reply from coordinator: &{1 8 true}
+got workerId 1
+Map task 9 done!
+Got reply from coordinator: {1 -1 0 10 []}
+Got reply from coordinator: &{0 9 true}
+got workerId 0
+Got reply from coordinator: {0 1 0 10 []}
+Got reply from coordinator: &{0 0 true}
+got workerId 0
+Got reply from coordinator: {0 1 1 10 []}
+Got reply from coordinator: &{0 1 true}
+got workerId 0
+Got reply from coordinator: {0 1 2 10 []}
+Got reply from coordinator: &{0 2 true}
+got workerId 0
+Got reply from coordinator: {0 1 3 10 []}
+Got reply from coordinator: &{0 3 true}
+got workerId 0
+Got reply from coordinator: {0 1 4 10 []}
+Got reply from coordinator: &{0 4 true}
+got workerId 0
+Got reply from coordinator: {0 1 5 10 []}
+Got reply from coordinator: &{0 5 true}
+got workerId 0
+Got reply from coordinator: {0 1 6 10 []}
+Got reply from coordinator: &{0 6 true}
+got workerId 0
+Got reply from coordinator: {0 1 7 10 []}
+Got reply from coordinator: &{0 7 true}
+got workerId 0
+Got reply from coordinator: {0 1 8 10 []}
+Got reply from coordinator: &{0 8 true}
+got workerId 0
+Got reply from coordinator: {0 1 9 10 []}
+Got reply from coordinator: &{0 9 true}
+got workerId 0
+Got reply from coordinator: {-1 2 0 10 []}
+--- map parallelism test: PASS
+got workerId 1
+Got reply from coordinator: {-1 2 0 10 []}
+*** Starting reduce parallelism test.
+[[../pg-being_ernest.txt] [../pg-dorian_gray.txt] [../pg-frankenstein.txt] [../pg-grimm.txt] [../pg-huckleberry_finn.txt] [../pg-metamorphosis.txt] [../pg-sherlock_holmes.txt] [../pg-tom_sawyer.txt] [] []]got workerId -1
+Got reply from coordinator: {0 0 0 10 [../pg-being_ernest.txt]}
+got workerId -1
+Got reply from coordinator: {1 0 1 10 [../pg-dorian_gray.txt]}
+Map task 0 done!
+Got reply from coordinator: &{0 0 true}
+got workerId 0
+Got reply from coordinator: {0 0 2 10 [../pg-frankenstein.txt]}
+Map task 1 done!
+Got reply from coordinator: &{1 1 true}
+got workerId 1
+Got reply from coordinator: {1 0 3 10 [../pg-grimm.txt]}
+Map task 2 done!
+Got reply from coordinator: &{0 2 true}
+got workerId 0
+Map task 3 done!
+Got reply from coordinator: {0 0 4 10 [../pg-huckleberry_finn.txt]}
+Got reply from coordinator: &{1 3 true}
+got workerId 1
+Got reply from coordinator: {1 0 5 10 [../pg-metamorphosis.txt]}
+Map task 4 done!
+Map task 5 done!
+Got reply from coordinator: &{0 4 true}
+got workerId 0
+Got reply from coordinator: &{1 5 true}
+got workerId 1
+Got reply from coordinator: {0 0 6 10 [../pg-sherlock_holmes.txt]}
+Got reply from coordinator: {1 0 7 10 [../pg-tom_sawyer.txt]}
+Map task 7 done!
+Map task 6 done!
+Got reply from coordinator: &{1 7 true}
+Got reply from coordinator: &{0 6 true}
+got workerId 1
+got workerId 0
+Got reply from coordinator: {0 0 8 10 []}
+Got reply from coordinator: {1 0 9 10 []}
+Map task 8 done!
+Map task 9 done!
+Got reply from coordinator: &{0 8 true}
+got workerId 0
+Got reply from coordinator: &{1 9 true}
+got workerId 1
+Got reply from coordinator: {0 1 0 10 []}
+Got reply from coordinator: {1 1 1 10 []}
+Got reply from coordinator: &{1 1 true}
+got workerId 1
+Got reply from coordinator: &{0 0 true}
+got workerId 0
+Got reply from coordinator: {0 1 2 10 []}
+Got reply from coordinator: {1 1 3 10 []}
+Got reply from coordinator: &{0 2 true}
+got workerId 0
+Got reply from coordinator: {0 1 4 10 []}
+Got reply from coordinator: &{1 3 true}
+got workerId 1
+Got reply from coordinator: {1 1 5 10 []}
+Got reply from coordinator: &{1 5 true}
+got workerId 1
+Got reply from coordinator: &{0 4 true}
+got workerId 0
+Got reply from coordinator: {1 1 6 10 []}
+Got reply from coordinator: {0 1 7 10 []}
+Got reply from coordinator: &{0 7 true}
+got workerId 0
+Got reply from coordinator: {0 1 8 10 []}
+Got reply from coordinator: &{0 8 true}
+got workerId 0
+Got reply from coordinator: {0 1 9 10 []}
+Got reply from coordinator: &{1 6 true}
+got workerId 1
+Got reply from coordinator: {1 -1 0 10 []}
+Got reply from coordinator: &{0 9 true}
+got workerId 0
+Got reply from coordinator: {-1 2 0 10 []}
+got workerId 1
+Got reply from coordinator: {-1 2 0 10 []}
+--- reduce parallelism test: PASS
+*** Starting job count test.
+[[../pg-being_ernest.txt] [../pg-dorian_gray.txt] [../pg-frankenstein.txt] [../pg-grimm.txt] [../pg-huckleberry_finn.txt] [../pg-metamorphosis.txt] [../pg-sherlock_holmes.txt] [../pg-tom_sawyer.txt] [] []]got workerId -1
+got workerId -1
+Got reply from coordinator: {1 0 1 10 [../pg-dorian_gray.txt]}
+Got reply from coordinator: {0 0 0 10 [../pg-being_ernest.txt]}
+Map task 1 done!
+Got reply from coordinator: &{1 1 true}
+got workerId 1
+Got reply from coordinator: {1 0 2 10 [../pg-frankenstein.txt]}
+Map task 0 done!
+Got reply from coordinator: &{0 0 true}
+got workerId 0
+Got reply from coordinator: {0 0 3 10 [../pg-grimm.txt]}
+Map task 2 done!
+Got reply from coordinator: &{1 2 true}
+got workerId 1
+Got reply from coordinator: {1 0 4 10 [../pg-huckleberry_finn.txt]}
+Map task 3 done!
+Got reply from coordinator: &{0 3 true}
+got workerId 0
+Got reply from coordinator: {0 0 5 10 [../pg-metamorphosis.txt]}
+Map task 5 done!
+Got reply from coordinator: &{0 5 true}
+got workerId 0
+Got reply from coordinator: {0 0 6 10 [../pg-sherlock_holmes.txt]}
+Map task 4 done!
+Got reply from coordinator: &{1 4 true}
+got workerId 1
+Got reply from coordinator: {1 0 7 10 [../pg-tom_sawyer.txt]}
+Map task 6 done!
+Got reply from coordinator: &{0 6 true}
+got workerId 0
+Got reply from coordinator: {0 0 8 10 []}
+Map task 8 done!
+Got reply from coordinator: &{0 8 true}
+got workerId 0
+Got reply from coordinator: {0 0 9 10 []}
+Map task 9 done!
+Got reply from coordinator: &{0 9 true}
+got workerId 0
+Got reply from coordinator: {0 -1 0 10 []}
+got workerId 0
+Got reply from coordinator: {0 -1 0 10 []}
+Map task 7 done!
+Got reply from coordinator: &{1 7 true}
+got workerId 1
+Got reply from coordinator: {1 1 0 10 []}
+Got reply from coordinator: &{1 0 true}
+got workerId 1
+Got reply from coordinator: {1 1 1 10 []}
+Got reply from coordinator: &{1 1 true}
+got workerId 1
+Got reply from coordinator: {1 1 2 10 []}
+Got reply from coordinator: &{1 2 true}
+got workerId 1
+Got reply from coordinator: {1 1 3 10 []}
+Got reply from coordinator: &{1 3 true}
+got workerId 1
+Got reply from coordinator: {1 1 4 10 []}
+Got reply from coordinator: &{1 4 true}
+got workerId 1
+Got reply from coordinator: {1 1 5 10 []}
+Got reply from coordinator: &{1 5 true}
+got workerId 1
+Got reply from coordinator: {1 1 6 10 []}
+Got reply from coordinator: &{1 6 true}
+got workerId 1
+Got reply from coordinator: {1 1 7 10 []}
+Got reply from coordinator: &{1 7 true}
+got workerId 1
+Got reply from coordinator: {1 1 8 10 []}
+Got reply from coordinator: &{1 8 true}
+got workerId 1
+Got reply from coordinator: {1 1 9 10 []}
+Got reply from coordinator: &{1 9 true}
+got workerId 1
+Got reply from coordinator: {-1 2 0 10 []}
+got workerId 0
+Got reply from coordinator: {-1 2 0 10 []}
+got workerId -1
+got workerId -1
+Got reply from coordinator: {-1 2 0 10 []}
+Got reply from coordinator: {-1 2 0 10 []}
+--- job count test: PASS
+*** Starting early exit test.
+[[../pg-being_ernest.txt] [../pg-dorian_gray.txt] [../pg-frankenstein.txt] [../pg-grimm.txt] [../pg-huckleberry_finn.txt] [../pg-metamorphosis.txt] [../pg-sherlock_holmes.txt] [../pg-tom_sawyer.txt] [] []]got workerId -1
+got workerId -1
+got workerId -1
+Got reply from coordinator: {2 0 2 10 [../pg-frankenstein.txt]}
+Got reply from coordinator: {0 0 0 10 [../pg-being_ernest.txt]}
+Got reply from coordinator: {1 0 1 10 [../pg-dorian_gray.txt]}
+Map task 0 done!
+Got reply from coordinator: &{0 0 true}
+got workerId 0
+Map task 2 done!
+Got reply from coordinator: {0 0 3 10 [../pg-grimm.txt]}
+Got reply from coordinator: &{2 2 true}
+got workerId 2
+Map task 1 done!
+Got reply from coordinator: {2 0 4 10 [../pg-huckleberry_finn.txt]}
+Got reply from coordinator: &{1 1 true}
+got workerId 1
+Got reply from coordinator: {1 0 5 10 [../pg-metamorphosis.txt]}
+Map task 3 done!
+Map task 5 done!
+Map task 4 done!
+Got reply from coordinator: &{0 3 true}
+got workerId 0
+Got reply from coordinator: &{1 5 true}
+got workerId 1
+Got reply from coordinator: &{2 4 true}
+got workerId 2
+Got reply from coordinator: {1 0 7 10 [../pg-tom_sawyer.txt]}
+Got reply from coordinator: {0 0 6 10 [../pg-sherlock_holmes.txt]}
+Got reply from coordinator: {2 0 8 10 []}
+Map task 8 done!
+Got reply from coordinator: &{2 8 true}
+got workerId 2
+Map task 7 done!
+Map task 6 done!
+Got reply from coordinator: {2 0 9 10 []}
+Got reply from coordinator: &{1 7 true}
+got workerId 1
+Got reply from coordinator: &{0 6 true}
+got workerId 0
+Got reply from coordinator: {1 -1 0 10 []}
+Map task 9 done!
+Got reply from coordinator: {0 -1 0 10 []}
+Got reply from coordinator: &{2 9 true}
+got workerId 2
+Got reply from coordinator: {2 1 0 10 []}
+Got reply from coordinator: &{2 0 true}
+got workerId 2
+Got reply from coordinator: {2 1 1 10 []}
+Got reply from coordinator: &{2 1 true}
+got workerId 2
+Got reply from coordinator: {2 1 2 10 []}
+got workerId 1
+got workerId 0
+Got reply from coordinator: {0 1 3 10 []}
+Got reply from coordinator: {1 1 4 10 []}
+Got reply from coordinator: &{1 4 true}
+got workerId 1
+Got reply from coordinator: &{0 3 true}
+got workerId 0
+Got reply from coordinator: {1 1 5 10 []}
+Got reply from coordinator: {0 1 6 10 []}
+Got reply from coordinator: &{1 5 true}
+got workerId 1
+Got reply from coordinator: {1 1 7 10 []}
+Got reply from coordinator: &{1 7 true}
+got workerId 1
+Got reply from coordinator: {1 1 8 10 []}
+Got reply from coordinator: &{1 8 true}
+got workerId 1
+Got reply from coordinator: {1 1 9 10 []}
+Got reply from coordinator: &{1 9 true}
+got workerId 1
+Got reply from coordinator: {1 -1 0 10 []}
+got workerId 1
+Got reply from coordinator: {1 -1 0 10 []}
+Got reply from coordinator: &{2 2 true}
+got workerId 2
+Got reply from coordinator: {2 -1 0 10 []}
+got workerId 1
+Got reply from coordinator: {1 -1 0 10 []}
+Got reply from coordinator: &{0 6 true}
+got workerId 0
+Got reply from coordinator: {-1 2 0 10 []}
+got workerId 2
+Got reply from coordinator: {-1 2 0 10 []}
+got workerId 1
+Got reply from coordinator: {-1 2 0 10 []}
+--- early exit test: PASS
+*** Starting crash test.
+[[../pg-being_ernest.txt] [../pg-dorian_gray.txt] [../pg-frankenstein.txt] [../pg-grimm.txt] [../pg-huckleberry_finn.txt] [../pg-metamorphosis.txt] [../pg-sherlock_holmes.txt] [../pg-tom_sawyer.txt] [] []]got workerId -1
+got workerId -1
+got workerId -1
+got workerId -1
+Got reply from coordinator: {0 0 0 10 [../pg-being_ernest.txt]}
+Got reply from coordinator: {2 0 2 10 [../pg-frankenstein.txt]}
+Got reply from coordinator: {1 0 1 10 [../pg-dorian_gray.txt]}
+Got reply from coordinator: {3 0 3 10 [../pg-grimm.txt]}
+Map task 0 done!
+Got reply from coordinator: &{0 0 true}
+got workerId 0
+Map task 2 done!
+Got reply from coordinator: {0 0 4 10 [../pg-huckleberry_finn.txt]}
+Got reply from coordinator: &{2 2 true}
+got workerId 2
+Got reply from coordinator: {2 0 5 10 [../pg-metamorphosis.txt]}
+Map task 1 done!
+Got reply from coordinator: &{1 1 true}
+got workerId 1
+Got reply from coordinator: {1 0 6 10 [../pg-sherlock_holmes.txt]}
+Map task 4 done!
+Got reply from coordinator: &{0 4 true}
+got workerId 0
+Got reply from coordinator: {0 0 7 10 [../pg-tom_sawyer.txt]}
+Map task 6 done!
+Got reply from coordinator: &{1 6 true}
+got workerId 1
+Got reply from coordinator: {1 0 8 10 []}
+Map task 8 done!
+Got reply from coordinator: &{1 8 true}
+got workerId 1
+Got reply from coordinator: {1 0 9 10 []}
+Map task 9 done!
+Got reply from coordinator: &{1 9 true}
+got workerId 1
+Got reply from coordinator: {1 -1 0 10 []}
+got workerId 1
+Got reply from coordinator: {1 -1 0 10 []}
+got workerId -1
+Got reply from coordinator: {2 -1 0 10 []}
+Map task 7 done!
+Got reply from coordinator: &{0 7 true}
+got workerId 0
+Got reply from coordinator: {0 -1 0 10 []}
+got workerId 1
+Got reply from coordinator: {1 -1 0 10 []}
+got workerId 2
+Got reply from coordinator: {2 -1 0 10 []}
+got workerId 0
+Got reply from coordinator: {0 -1 0 10 []}
+got workerId 1
+Got reply from coordinator: {1 -1 0 10 []}
+got workerId 2
+Got reply from coordinator: {2 -1 0 10 []}
+got workerId 0
+Got reply from coordinator: {0 -1 0 10 []}
+got workerId 1
+Got reply from coordinator: {1 -1 0 10 []}
+got workerId 2
+Got reply from coordinator: {2 -1 0 10 []}
+got workerId 0
+Got reply from coordinator: {0 -1 0 10 []}
+Map task 5 done!
+Got reply from coordinator: &{2 5 true}
+got workerId 2
+Got reply from coordinator: {2 -1 0 10 []}
+got workerId 1
+Got reply from coordinator: {1 -1 0 10 []}
+got workerId 2
+Got reply from coordinator: {2 -1 0 10 []}
+got workerId 0
+Got reply from coordinator: {0 -1 0 10 []}
+got workerId 2
+Got reply from coordinator: {2 -1 0 10 []}
+got workerId 1
+Got reply from coordinator: {1 -1 0 10 []}
+got workerId 2
+Got reply from coordinator: {2 -1 0 10 []}
+got workerId 0
+Got reply from coordinator: {0 -1 0 10 []}
+got workerId 2
+Got reply from coordinator: {2 -1 0 10 []}
+got workerId 1
+Got reply from coordinator: {1 -1 0 10 []}
+got workerId 2
+Got reply from coordinator: {2 -1 0 10 []}
+got workerId 0
+Got reply from coordinator: {0 -1 0 10 []}
+got workerId 2
+Got reply from coordinator: {2 -1 0 10 []}
+got workerId 1
+Got reply from coordinator: {1 -1 0 10 []}
+got workerId 2
+Got reply from coordinator: {2 -1 0 10 []}
+got workerId 0
+Got reply from coordinator: {0 -1 0 10 []}
+got workerId 2
+Got reply from coordinator: {2 -1 0 10 []}
+got workerId 1
+Got reply from coordinator: {1 -1 0 10 []}
+got workerId 2
+Got reply from coordinator: {2 -1 0 10 []}
+got workerId 0
+Got reply from coordinator: {0 -1 0 10 []}
+got workerId 2
+Got reply from coordinator: {2 -1 0 10 []}
+got workerId 1
+Got reply from coordinator: {1 -1 0 10 []}
+got workerId 2
+Got reply from coordinator: {2 -1 0 10 []}
+got workerId 0
+Got reply from coordinator: {0 -1 0 10 []}
+got workerId 2
+Got reply from coordinator: {2 -1 0 10 []}
+got workerId 1
+Got reply from coordinator: {1 0 3 10 [../pg-grimm.txt]}
+Map task 3 done!
+Got reply from coordinator: &{1 3 true}
+got workerId 1
+Got reply from coordinator: {1 1 0 10 []}
+got workerId 2
+Got reply from coordinator: {2 1 1 10 []}
+Got reply from coordinator: &{2 1 true}
+got workerId 2
+Got reply from coordinator: {2 1 2 10 []}
+Got reply from coordinator: &{2 2 true}
+got workerId 2
+Got reply from coordinator: {2 1 3 10 []}
+Got reply from coordinator: &{2 3 true}
+got workerId 2
+Got reply from coordinator: {2 1 4 10 []}
+Got reply from coordinator: &{2 4 true}
+got workerId 2
+Got reply from coordinator: {2 1 5 10 []}
+Got reply from coordinator: &{2 5 true}
+got workerId 2
+Got reply from coordinator: {2 1 6 10 []}
+Got reply from coordinator: &{2 6 true}
+got workerId 2
+Got reply from coordinator: {2 1 7 10 []}
+Got reply from coordinator: &{2 7 true}
+got workerId 2
+Got reply from coordinator: {2 1 8 10 []}
+Got reply from coordinator: &{2 8 true}
+got workerId 2
+Got reply from coordinator: {2 1 9 10 []}
+got workerId 0
+Got reply from coordinator: {0 -1 0 10 []}
+got workerId 2
+Got reply from coordinator: {2 -1 0 10 []}
+got workerId 0
+Got reply from coordinator: {0 -1 0 10 []}
+got workerId 2
+Got reply from coordinator: {2 -1 0 10 []}
+got workerId 0
+Got reply from coordinator: {0 -1 0 10 []}
+got workerId 2
+Got reply from coordinator: {2 -1 0 10 []}
+Got reply from coordinator: &{1 0 true}
+got workerId 1
+Got reply from coordinator: {1 -1 0 10 []}
+got workerId 0
+Got reply from coordinator: {0 -1 0 10 []}
+got workerId 2
+Got reply from coordinator: {2 -1 0 10 []}
+got workerId 1
+Got reply from coordinator: {1 -1 0 10 []}
+got workerId 0
+Got reply from coordinator: {0 -1 0 10 []}
+got workerId 2
+Got reply from coordinator: {2 -1 0 10 []}
+got workerId 1
+Got reply from coordinator: {1 -1 0 10 []}
+got workerId 0
+Got reply from coordinator: {0 -1 0 10 []}
+got workerId 2
+Got reply from coordinator: {2 -1 0 10 []}
+got workerId 1
+Got reply from coordinator: {1 -1 0 10 []}
+got workerId 0
+Got reply from coordinator: {0 -1 0 10 []}
+got workerId 2
+Got reply from coordinator: {2 -1 0 10 []}
+got workerId 1
+Got reply from coordinator: {1 -1 0 10 []}
+got workerId 0
+Got reply from coordinator: {0 -1 0 10 []}
+Got reply from coordinator: &{2 9 true}
+got workerId 2
+Got reply from coordinator: {-1 2 0 10 []}
+got workerId 2
+Got reply from coordinator: {-1 2 0 10 []}
+got workerId 1
+Got reply from coordinator: {-1 2 0 10 []}
+got workerId 0
+Got reply from coordinator: {-1 2 0 10 []}
+got workerId -1
+Got reply from coordinator: {-1 2 0 10 []}
+got workerId -1
+Got reply from coordinator: {-1 2 0 10 []}
+--- crash test: PASS
+*** PASSED ALL TESTS
